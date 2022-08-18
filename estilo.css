@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.parrafo {
+  text-align: left;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #33f9ff;
+}
+
+header {
+  background-image: url("../img/fon.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 70px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  background-color:none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  background-color:none
+  display: block;
+  padding: 35px;
+}
+
+a:hover{
+  background:  none;
+  color: blue;
+}
+
+.contenedor {
+  border: blue solid 3px;
+  margin: 30px 10px 15px 20px;
+  padding: 15px;
+  background-image: url(../img/busos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+h2 {
+  color:  #5C6063;
+}
+
+p {
+  padding: 5px;
+}
+
+.ti{
+  margin-top: 70px;
+}
+
+.bau{
+  margin-left: 1rem;
+  margin-top: 5rem;
+
+}
+
+.img{
+  width: 25rem;
+}
+
+.contenedorimg{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
+.noc{
+  margin-left: 0,7rem;
+  margin-top: 5rem;
+}
+.snork{
+  margin-right: 1rem;
+  margin-top: 5rem;
+}
+
+.nombre{
+  margin-bottom: 1rem;
+}
+
+
+.iconify{
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+.contenedorFooter{
+  display: flex;
+  justify-content:center;
+
+}
+
+.cur{
+  text-align: center;
+  font-weight:bold;
+  padding-top: 2rem;
+
+}
+.adv{
+  font-size: 2rem;
+  margin-top: 4rem;
+  padding-left: 2rem;
+}
+
+.fon{
+  padding-left: 2rem;
+}
+
+.par{
+  padding-bottom: 2rem;
+}
+
+.imgbusos{
+  width: 40rem;
+  
+}
+
+.imagenes{
+  padding-top: 3rem;
+  padding: 2rem;
+  
+}
+
+.tn{
+  font-size: 2rem;
+  
+  margin-left: 33rem;
+}
+.contenedorventa{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.consulta{
+  font-size: 2rem;
+  margin-top: 4rem;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+form{
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.continf{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  margin-top: 3rem;
+}
+.comentario{
+  font-size: 30px;
+  position:center;
+  margin-top: 5rem;
+}
