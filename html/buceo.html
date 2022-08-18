@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>buceo</title>
     <link rel="stylesheet" href="/estilo.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
       
       
       <nav>
-        <ul>
+        <ul data-aos="fade-up"
+        data-aos-duration="3000">
           <li><a href="../index.html">Novedades</a></li>
           <li><a href="cursos.html">Cursos</a></li>
           <li><a href="buceo.html">Buceo</a></li>
@@ -24,8 +26,10 @@
       
     </header>
     
-    <p class="cur"><h1>Buceo</h1></p>
-    <p><h2 class="adv">Fondo del mar de Maragogi</h2></p>
+    <p class="cur"><h1 data-aos="zoom-in-down">Buceo</h1></p>
+    <p><h2 class="adv" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">Fondo del mar de Maragogi</h2></p>
  
    
     <main class="fon">
@@ -39,7 +43,9 @@
 
    
       <img class="imgbusos" src="../img/busos.jpg" alt="imagenes busos" />
-      <h2 class="adv">Video</h2>
+      <h2 class="adv" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">Video</h2>
       
       <p class="par">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sit
@@ -83,6 +89,10 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   
     
   </body>

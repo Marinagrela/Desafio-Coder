@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>equipo</title>
     <link rel="stylesheet" href="/estilo.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -14,7 +14,8 @@
       
 
       <nav>
-        <ul>
+        <ul data-aos="fade-up"
+        data-aos-duration="3000">
           <li><a href="../index.html">Novedades</a></li>
           <li><a href="cursos.html">Cursos</a></li>
           <li><a href="buceo.html">Buceo</a></li>
@@ -26,14 +27,16 @@
       
       
     </header>
-
-    <p class="cur"><h1>Equipo</h1></p>
-    <h2 class="tn">Trajes de Neoprene</h2>
+    
+    <p class="cur"><h1 data-aos="zoom-in-down">Equipo</h1></p>
+    <h2 class="tn" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">Trajes de Neoprene</h2>
     <section class="contenedorventa">
     <main class="imagenes">
-      <img src="../img/hom.webp" alt="" />
-      <img src="../img/dama.webp" alt="">
-      <img src="../img/niño.webp" alt="">
+      <img  class="hombre"  src="../img/hom.webp" alt=""data-aos="fade-right">
+      <img class="dama" src="../img/dama.webp" alt=""data-aos="fade-down">
+      <img class="niño" src="../img/niño.webp" alt="" data-aos="fade-left">
     </main>
   </section>
   
@@ -43,7 +46,7 @@
       <div class="contenedorFooter">
        
         
-        <a href="https://www.instagram.com/" target="_blank">
+        <a  href="https://www.instagram.com/" target="_blank">
           <span class="iconify" data-icon="brandico:instagram"></span>
         
           
@@ -60,5 +63,10 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
+

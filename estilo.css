@@ -25,7 +25,7 @@ a {
 }
 
 body {
-  background-color: #33f9ff;
+  background: linear-gradient( #33f9ff, #9CF4EC,  #D1E5E3 ,  #B4BCBB ) #33f9ff;
 }
 
 header {
@@ -187,4 +187,31 @@ form{
   font-size: 30px;
   position:center;
   margin-top: 5rem;
+}
+
+.img{
+  transition: height 1s, width 0.8s;
+}
+
+.img:hover{
+  width: 430px;
+  height: 300px;
+}
+
+.contenedor{
+  transition: heigth 1s, width 1s;
+}
+
+.contenedor:hover{
+  width: 1300px;
+  height: 200px;
+}
+
+.imgbusos{
+  transition: heigth 1s, width 1s;
+}
+
+.imgbusos:hover{
+  width: 670px;
+  height: 450px;
 }
