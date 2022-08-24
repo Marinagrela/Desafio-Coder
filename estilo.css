@@ -215,3 +215,14 @@ form{
   width: 670px;
   height: 450px;
 }
+
+.row {
+  padding-left:  5rem;
+}
+
+.titu{
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
